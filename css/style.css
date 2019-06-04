@@ -1,0 +1,106 @@
+html{
+    min-height: 1230px;
+}
+
+body{
+    background-image: url('../img/thanos-4k_1543619966.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Wendy One', sans-serif;
+}
+
+header{
+    width: 100%;
+    margin-top : 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#avsimp{
+    margin: auto;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.actions{
+    display: flex;
+    justify-content: space-around;
+}
+
+#snap1, #snap2{
+    cursor: pointer;
+}
+#time{
+    
+}
+
+#trombi{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#trombi img{
+    width: 120px;
+    height: 90px;
+    margin: 10px;
+    border-radius:20px;;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    border : 2px solid white;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.hide1{
+    display: none;
+}
+#time{
+    height: 80px;
+    cursor: pointer;
+}
+
+footer{
+    color : white;
+
+}
+footer p{
+    margin-right: 20px;
+    bottom: 0;
+    right: 0;
+    float: right;
+}
+
+@media screen and (min-width : 576px){
+
+}
+
+@media screen and (min-width : 768px){
+#avsimp{
+    height: 70px;
+}
+}
+
+@media screen and (min-width : 998px){
+footer p{
+    position: fixed;
+}
+#avsimp{
+    height: 80px;
+}
+body{
+    background-size: cover;
+    background-position: top;
+}
+}
+
